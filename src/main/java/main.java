@@ -12,6 +12,7 @@ import org.bson.Document;
 import main.java.mongoperson.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class main
 {
@@ -23,6 +24,7 @@ public class main
         MongoCollection snapshot = db.getCollection("snapshot");
         FindIterable<Document> docs = snapshot.find();
         FormalDateConverter dateConverter = new FormalDateConverter();
+        HashMap<Integer, ModifiableInt> probabilities = new HashMap<>();
 
         for (Document doc : docs)
         {
