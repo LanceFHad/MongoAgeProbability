@@ -1,4 +1,4 @@
-package dates;
+package main.java.dates;
 
 /**
  * Transforms Gregorian dates to Julian Days, and vice versa.

@@ -1,4 +1,4 @@
-package dates;
+package main.java.dates;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package dates;
+package main.java.dates;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
