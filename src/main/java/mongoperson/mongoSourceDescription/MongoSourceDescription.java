@@ -1,5 +1,5 @@
-package main.java.databaseclasses.mongoperson.mongoSourceDescription;
-import main.java.databaseclasses.mongoperson.MongoDatabaseIdentifier;
+package main.java.mongoperson.mongoSourceDescription;
+import main.java.mongoperson.MongoDatabaseIdentifier;
 
 public class MongoSourceDescription {
     private String about;

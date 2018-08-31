@@ -1,8 +1,8 @@
-package main.java.databaseclasses.mongoperson;
+package main.java.mongoperson;
 
-import main.java.databaseclasses.mongoperson.mongoDatabasePerson.MongoDatabasePerson;
-import main.java.databaseclasses.mongoperson.mongoPlace.MongoPlace;
-import main.java.databaseclasses.mongoperson.mongoSourceDescription.MongoSourceDescription;
+import main.java.mongoperson.mongoDatabasePerson.MongoDatabasePerson;
+import main.java.mongoperson.mongoPlace.MongoPlace;
+import main.java.mongoperson.mongoSourceDescription.MongoSourceDescription;
 
 import java.util.ArrayList;
 

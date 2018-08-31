@@ -1,4 +1,4 @@
-package main.java.databaseclasses.mongoperson.mongoPlace;
+package main.java.mongoperson.mongoPlace;
 
 public class MongoPlaceName {
     private String value;

@@ -1,4 +1,4 @@
-package main.java.databaseclasses.mongoperson;
+package main.java.mongoperson;
 
 public class MongoRelationship {
     private MongoRelationshipResource person1;

@@ -1,4 +1,4 @@
-package main.java.databaseclasses.mongoperson;
+package main.java.mongoperson;
 
 import java.util.ArrayList;
 

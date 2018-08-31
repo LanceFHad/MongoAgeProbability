@@ -1,4 +1,4 @@
-package main.java.databaseclasses.mongoperson.mongoSourceDescription;
+package main.java.mongoperson.mongoSourceDescription;
 
 public class MongoComponentOf {
     private String description;

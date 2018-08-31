@@ -1,4 +1,4 @@
-package main.java.databaseclasses.mongoperson.mongoDatabasePerson;
+package main.java.mongoperson.mongoDatabasePerson;
 
 public class MongoNormalizedDate {
     private String value;

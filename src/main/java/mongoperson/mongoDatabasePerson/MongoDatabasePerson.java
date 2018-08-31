@@ -1,6 +1,6 @@
-package main.java.databaseclasses.mongoperson.mongoDatabasePerson;
+package main.java.mongoperson.mongoDatabasePerson;
 
-import main.java.databaseclasses.mongoperson.MongoDatabaseIdentifier;
+import main.java.mongoperson.MongoDatabaseIdentifier;
 
 import java.util.ArrayList;
 
