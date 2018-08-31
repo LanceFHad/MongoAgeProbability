@@ -30,8 +30,9 @@ public class main
         {
             MongoPerson current = gson.fromJson(doc.toJson(), MongoPerson.class);
             ArrayList<MongoDatabasePersonFact> facts = current.getPersons().get(0).getFacts();
-            DateRange birth;
-            DateRange death;
+            DateRange birth = new DateRange(1,1);
+            DateRange death = new DateRange(1,1);
+
             for (MongoDatabasePersonFact fact : facts)
             {
                 if (fact.getType().equals("Birth"))
@@ -43,6 +44,22 @@ public class main
                     death = dateConverter.convert(fact.getDate().getFormal());
                 }
             }
+
+            int ageAtDeath = calculateAge(birth, death);
+            ModifiableInt count = probabilities.get(ageAtDeath);
+            if (count == null)
+            {
+                probabilities.put(ageAtDeath, new ModifiableInt());
+            }
+            else
+            {
+                count.increment();
+            }
         }
+    }
+
+    public static int calculateAge(DateRange birth, DateRange death)
+    {
+        return 0;
     }
 }
